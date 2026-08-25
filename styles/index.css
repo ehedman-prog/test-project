@@ -1,0 +1,30 @@
+/*I wanted to keep the style of the webpage clean and minimalistic
+with a coheisve color palette that matches the image I made.*/
+
+h1 {
+    color:rgb(29, 116, 230);
+    text-align: center;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+h2 {
+    color: white;
+    font-weight: 150;
+    background-color:rgb(29, 116, 230) ;
+}
+
+img {
+    border-width: 1px;
+    border-style: solid;
+    border-color: darkgrey;
+    border-radius: 7.5%;
+}
+
+.footer-text {
+    color: rgb(122, 122, 122);
+    font-size: 12px;
+    font-style: italic;
+}
