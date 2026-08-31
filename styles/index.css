@@ -3,17 +3,54 @@ with a coheisve color palette that matches the image I made.*/
 
 h1 {
     color:rgb(29, 116, 230);
-    text-align: center;
+    text-align: center; 
+    font-family: "Chango", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 50px;
+    margin: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+nav li {
+    margin-right: 30px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(29, 116, 230);
+    color:white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav a:hover {
+background-color: blue;
 }
 
 body {
     background-color: whitesmoke;
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 40px;
 }
 
 h2 {
     color: white;
     font-weight: 150;
     background-color:rgb(29, 116, 230) ;
+    margin-left: -40px;
+    margin-right: -40px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 img {
@@ -21,6 +58,9 @@ img {
     border-style: solid;
     border-color: darkgrey;
     border-radius: 7.5%;
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
 }
 
 .footer-text {
